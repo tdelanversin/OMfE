@@ -1,0 +1,12 @@
+name: omfe
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.10
+  - pip:
+      - numpy
+      - pandas
+      - pexpect
+      - matplotlib
+      - pillow
